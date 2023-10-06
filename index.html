@@ -1,21 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>p4</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Peladinha Sextou</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Usando links</h1>
-    <p>youtube <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=27" target="_blank" rel="external">curso html5</a></p>
-    <!--<a href="link"> descrição -> ir para outra pagina do site
-        <a href="link" target="_blank" rel="extarnal">
-                quando for um link externo-->
-    <p><a href="paginas/pag01.html">pág 1</a></p>
-    <p><a href="paginas/pag02.html">pág 2</a></p>
-    <p><a href="paginas/pag03.html">pág 3</a></p>
-    <p><a href="paginas/pag04.html">pág 4</a></p>
+    <main>
+        <header id="topo">
+            <i id="titulo">
+                <h3>Peladinha</h3>
+                <h1>Sextou</h1>
+            </i>
+            <img src="imagens/616virvM8IL._AC_UF1000,1000_QL80_.png" alt="bola de futebol">
+        </header>
+        <footer>
+            <form id="cad">
+                <label for="nome" id="login">Nome<br><input name="nome" id="nome" required></label><br>
+                <header id="colab">
+                    <input type="radio" name="colab" id="Diarista">
+                    <label for="colab">Diarista</label><br>
+                    <input type="radio" name="colab" id="mensalista">
+                    <label for="mensalista">mensalista</label>
+                </header>
+                <button type="submit" onclick="chegada()" id="bot">Enviar</button>
+            </form>
+        </footer>
+    </main>
 </body>
 </html>
